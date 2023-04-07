@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+//Estamos importando o classname vidio da pagina vidio 
+import Video from './pages/Video'; 
+//a tag <Video/> pega todos os dados da classname video da pg vidio.js 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='app_videos'>
+        <Video/>
+        <Video/>
+        <Video/>
+        
+      </div>
     </div>
   );
 }
