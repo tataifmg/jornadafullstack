@@ -7,8 +7,6 @@ function App() {
     <div className="App">
       <div className='app_videos'>
         <Video/>
-        <Video/>
-        <Video/>
         
       </div>
     </div>
